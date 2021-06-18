@@ -20,8 +20,7 @@ public class Click {
         webDriver.findElement(locator).click();
     }
 
-    public static String getStringDrop(WebDriver webDriver, By locator){
-        Select drop = new Select(webDriver.findElement(locator));
-        return drop.getFirstSelectedOption().getText();
+    public static void onSelectCheckBox(WebDriver webDriver, By locator){
+        webDriver.findElement(locator).click();
     }
 }
