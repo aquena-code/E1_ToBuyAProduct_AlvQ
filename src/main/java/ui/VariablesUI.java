@@ -17,9 +17,6 @@ public class VariablesUI {
     public static String state = "Alabama";
     public static String country = "United States";
 
-    //public static By buttonAddCart = By.xpath("//ul[@id='homefeatured']/li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line']//a[contains(@href,'http://automationpractice.com/index.php?controller=cart&amp;add=1&amp;id_product=1&amp;token=87e87922236d08591b244876dcac63c9')]");
-    //public static By buttonAddCart = By.xpath("//a[contains(@href,'http://automationpractice.com/index.php?controller=cart&amp;add=1&amp;id_product=1&amp;token=87e87922236d08591b244876dcac63c9')]");
-    //public static By buttonAddCart = By.xpath("//ul[@id='homefeatured']/li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line']//span[.='Add to cart']");
     public static By nameProduct = By.xpath("//ul[@id='homefeatured']//a[contains(.,'Faded Short Sleeve T-shirts')]");
     public static By buttonAddToCart = By.xpath("//span[.='Add to cart']");
     public static By buttonCheckout = By.xpath("//span[contains(.,'Proceed to checkout')]");
@@ -41,7 +38,7 @@ public class VariablesUI {
     public static By buttonRegister = By.id("submitAccount");
 
     public static By buttonCheckoutDir = By.xpath("//span[.='Proceed to checkout']");
-    //public static By buttonProceedCheckout = By.xpath("//button[@name='Proceed to checkout']");
+
     public static By buttonProceedCheckout = By.xpath("//button[@name='processCarrier']/span[contains(.,'Proceed to checkout')]");
     public static By checkBoxTerms = By.id("cgv");
 
